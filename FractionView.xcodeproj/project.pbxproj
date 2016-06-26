@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92C583021D20340A000CC7C6 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C583001D20340A000CC7C6 /* Fraction.m */; };
 		92DE18191AA5344700225DBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DE18181AA5344700225DBF /* main.m */; };
 		92DE181C1AA5344800225DBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DE181B1AA5344800225DBF /* AppDelegate.m */; };
 		92DE181F1AA5344800225DBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DE181E1AA5344800225DBF /* ViewController.m */; };
@@ -14,7 +15,6 @@
 		92DE18241AA5344800225DBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DE18231AA5344800225DBF /* Images.xcassets */; };
 		92DE18271AA5344800225DBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92DE18251AA5344800225DBF /* LaunchScreen.xib */; };
 		92DE18331AA5344800225DBF /* FractionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DE18321AA5344800225DBF /* FractionViewTests.m */; };
-		92DE183E1AA5348200225DBF /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DE183D1AA5348200225DBF /* Fraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		92C583001D20340A000CC7C6 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		92C583011D20340A000CC7C6 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		92DE18131AA5344700225DBF /* FractionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FractionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DE18171AA5344700225DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92DE18181AA5344700225DBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,8 +43,6 @@
 		92DE182C1AA5344800225DBF /* FractionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FractionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DE18311AA5344800225DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92DE18321AA5344800225DBF /* FractionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FractionViewTests.m; sourceTree = "<group>"; };
-		92DE183C1AA5348200225DBF /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fraction.h; path = ../../Fraction/Fraction/Fraction.h; sourceTree = "<group>"; };
-		92DE183D1AA5348200225DBF /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fraction.m; path = ../../Fraction/Fraction/Fraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +84,8 @@
 		92DE18151AA5344700225DBF /* FractionView */ = {
 			isa = PBXGroup;
 			children = (
-				92DE183C1AA5348200225DBF /* Fraction.h */,
-				92DE183D1AA5348200225DBF /* Fraction.m */,
+				92C583001D20340A000CC7C6 /* Fraction.m */,
+				92C583011D20340A000CC7C6 /* Fraction.h */,
 				92DE181A1AA5344800225DBF /* AppDelegate.h */,
 				92DE181B1AA5344800225DBF /* AppDelegate.m */,
 				92DE181D1AA5344800225DBF /* ViewController.h */,
@@ -227,7 +227,7 @@
 				92DE181F1AA5344800225DBF /* ViewController.m in Sources */,
 				92DE181C1AA5344800225DBF /* AppDelegate.m in Sources */,
 				92DE18191AA5344700225DBF /* main.m in Sources */,
-				92DE183E1AA5348200225DBF /* Fraction.m in Sources */,
+				92C583021D20340A000CC7C6 /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +418,7 @@
 				92DE18381AA5344800225DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92DE18391AA5344800225DBF /* Build configuration list for PBXNativeTarget "FractionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +427,7 @@
 				92DE183B1AA5344800225DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
